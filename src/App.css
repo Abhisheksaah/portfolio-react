@@ -1,4 +1,73 @@
 .App {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8f9fa;
+  color: #222;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: #222;
+  color: #fff;
+  padding: 2rem 0 1rem 0;
   text-align: center;
-  background-color: beige;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #b3b3b3;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background: #fff;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.nav a {
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav a:hover {
+  color: #007bff;
+}
+
+.section {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #222;
+  color: #fff;
+  margin-top: 2rem;
 }
